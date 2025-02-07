@@ -3,25 +3,25 @@ body {
     flex-direction: column;
 }
 
-.header,
-.footer {
+.header {
     display: flex;
     height: 72px;
     background: #1F2937;
     justify-content: space-between;
     padding: 16px;
+}
 
 .header {
-    font-family: Roboto, sans-serif;
-}
-    }
 
+}
+    
 .left-side {
     display: flex;
     padding-left: 100px;
     color: #666;
-    font-family: Roboto, sans-serif;
-    font-size: 24px, #f9FAF8;
+    font-size: 24px;  /* Font size */
+    color: #f9FAF8;   /* Text color */
+    font-family: Roboto, sans-serif; 
 }
 
 .right-side {
@@ -29,8 +29,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding-right: 100px;
-    font-family: Roboto, sans-serif;
-    font-size: 18px, #e5e7eb;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Roboto, sans-serif; 
 }
 
 ul {
@@ -48,13 +49,19 @@ ul {
 
   /*everything above this is the top of the header */
 
+  .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: Roboto, sans-serif;
+    text-align: center; 
+  }
+
   .box {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .title {
-    font-size: 48px;
-    font-weight: 900, #f9FAF8;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 200px; 
   }
