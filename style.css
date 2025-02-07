@@ -12,7 +12,6 @@ body {
     padding: 16px;
 
 .header {
-    display: flex;
     font-family: Roboto, sans-serif;
 }
     }
@@ -22,7 +21,7 @@ body {
     padding-left: 100px;
     color: #666;
     font-family: Roboto, sans-serif;
-    font-size: 24px, #f9f9f9FAF8;
+    font-size: 24px, #f9FAF8;
 }
 
 .right-side {
@@ -31,6 +30,7 @@ body {
     justify-content: space-between;
     padding-right: 100px;
     font-family: Roboto, sans-serif;
+    font-size: 18px, #e5e7eb;
 }
 
 ul {
@@ -50,6 +50,11 @@ ul {
 
   .box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: 900, #f9FAF8;
   }
