@@ -27,7 +27,7 @@ body {
 .right-side {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 16px;
     padding-right: 100px;
     font-size: 18px;
     color: #e5e7eb;
