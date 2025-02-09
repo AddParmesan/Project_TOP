@@ -11,16 +11,16 @@ body {
     padding: 16px;
 }
 
-.header {
-
+.header, .box {
+    margin: 0;
 }
-    
+
 .left-side {
     display: flex;
     padding-left: 100px;
     color: #666;
-    font-size: 24px;  /* Font size */
-    color: #f9FAF8;   /* Text color */
+    font-size: 24px;  
+    color: #f9FAF8;   
     font-family: Roboto, sans-serif; 
 }
 
@@ -49,13 +49,12 @@ ul {
 
   /*everything above this is the top of the header */
 
-  .title {
-    font-size: 48px;
-    font-weight: 900;
-    color: white;
-    font-family: Roboto, sans-serif;
-    text-align: center; 
-  }
+.secondsect{
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
 
   .box {
     display: flex;
@@ -63,5 +62,40 @@ ul {
     align-items: center; 
     justify-content: center;
     width: 100%;
-    height: 200px; 
+    height: auto;
+    min-height: 200px;
+    background: #1F2937;
+    gap: 16px; 
+    color: #e5e7eb;
   }
+
+  .title {
+    display: flex;
+    text-align: center; 
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: Roboto;
+    
+  }
+
+  .words {
+    font-size: 18px;
+    color: #9ca3af;
+    margin-bottom: 16px;
+    font-family: Roboto;
+    display: block;
+    color: #9ca3af;
+  }
+ 
+.imagebox{
+  background: grey;
+  border: 1px solid midnightblue;
+  width: 600px;
+  height: 300px;
+}
+
+.insidebox {
+  font-weight: bold;
+  text-align: center;
+}
