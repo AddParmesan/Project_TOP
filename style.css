@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .header {
@@ -93,14 +96,33 @@ ul {
   }
  
 .imagebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: grey;
   border: 1px solid midnightblue;
   width: 50%;
   max-width: 600px;
-  height: 300px;
+  min-height: 300px;
 }
 
 .insidebox {
+  display: flex;
   font-weight: bold;
+  justify-content: center;
   text-align: center;
+  color: white;
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.signup {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
 }
