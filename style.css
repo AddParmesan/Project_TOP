@@ -52,34 +52,36 @@ ul {
   .secondsect {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     min-height: 200px; /* Ensure the section has some height */
     background: #1F2937; /* Set background color for secondsect */
     width: 100%; /* Ensures it takes the full width of the viewport */
     gap: 16px;
     padding: 16px;
+    padding-bottom: 100px;
     /* flex-grow: 1; */
 }
 
-  .box {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    width: 50%;
-    color: #e5e7eb;
-  }
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  color: #e5e7eb;
+  /* padding: 16px; */
+  padding-left: 100px; /* Added to match the header padding */
+}
 
-  .title {
-    display: flex;
-    text-align: center; 
-    font-size: 48px;
-    font-weight: 900;
-    color: white;
-    font-family: Roboto;
-    
-  }
+.title {
+  text-align: left;
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  font-family: Roboto;
+  margin-bottom: 8px; /* Added margin for spacing between title and words */
+}
 
   .words {
     flex-wrap: wrap;
