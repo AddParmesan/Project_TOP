@@ -57,7 +57,7 @@ ul {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    min-height: 200px; /* Ensure the section has some height */
+    min-height: 400px; /* Ensure the section has some height */
     background: #1F2937; /* Set background color for secondsect */
     width: 100%; /* Ensures it takes the full width of the viewport */
     gap: 16px;
@@ -73,7 +73,8 @@ ul {
   justify-content: flex-start;
   width: 50%;
   color: #e5e7eb;
-  /* padding: 16px; */
+  gap: 16px;
+  min-height: 300px;
   padding-left: 100px; /* Added to match the header padding */
 }
 
@@ -83,6 +84,7 @@ ul {
   font-weight: 900;
   color: white;
   font-family: Roboto;
+  flex-grow: 0;
   margin-bottom: 8px; /* Added margin for spacing between title and words */
 }
 
@@ -90,11 +92,30 @@ ul {
     flex-wrap: wrap;
     font-size: 18px;
     color: #9ca3af;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-family: Roboto;
     display: block;
+    width: auto;
   }
  
+  button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin-top: 16px;
+    display: inline-block;  /* Ensure button is rendered */
+    width: auto;  /* Adjust width to fit content */
+  }
+  
+  button.signup {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
 .imagebox {
   display: flex;
   justify-content: center;
@@ -115,14 +136,3 @@ ul {
   height: 100%;
 }
 
-button {
-  cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 8px;
-}
-
-button.signup {
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
-}
