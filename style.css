@@ -14,7 +14,7 @@ body {
     padding: 16px;
 }
 
-.header, .secondsect, .thirdsect {
+.header, .secondsect, .thirdsect, .fourthsect, .fifthsect {
     margin: 0;
 }
 
@@ -112,7 +112,7 @@ ul {
   }
   
   button.signup {
-    background: royalblue;
+    background: #3882f6
     border: 1px solid royalblue;
     color: white;
   }
@@ -242,3 +242,57 @@ margin-bottom: 50px;
 text-align: right;
 padding-top: 5px;
 }
+
+/* everything below is fifthsect */
+
+.fifthsect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  min-height: 400px; 
+  width: 100%; 
+  gap: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+}
+
+.boxfive {
+  display: flex;
+  flex-direction: row;
+  background: #3882f6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.fivecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.fiveinsidecontent {
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  font-family: Roboto;
+}
+
+.fiveinsidecontenttwo{
+  font-size: 18px;
+  font-weight: auto;
+  color: white;
+  font-family: Roboto;
+}
+
+button.signuptwo {
+  background: #3882f6;
+  border: 1px solid white;
+  color: white;
