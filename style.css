@@ -226,7 +226,7 @@ margin-bottom: 50px;
 }
 
 .textfour {
-  width: 400px;
+  width: 800px;
   margin-top: 5px: 
   color: #1F2937;
   text-align: center;
@@ -250,12 +250,13 @@ padding-top: 5px;
   flex-direction: row;
   align-items: center;
   justify-content: center; 
-  min-height: 400px; 
+  min-height: 200px; 
   width: 100%; 
   gap: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
   background: white;
+  margin-top: 0;
 }
 
 .boxfive {
@@ -269,12 +270,13 @@ padding-top: 5px;
   justify-content: space-between;
   border-radius: 5px;
   gap: 10px;
+  width: 700px;
+  margin-top: 0;
 }
 
 .fivecontent {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 5px;
 }
 
