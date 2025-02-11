@@ -176,10 +176,16 @@ ul {
   margin-top: 0;
 }
 
+.stack{
+  display: flex;
+  flex-direction: column;
+}
+
 .container{
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 50px;
+  flex-grow: 1;
 }
 
 .hollowbox {
@@ -188,4 +194,13 @@ ul {
   width: 200px;
   height: 200px;
   border-radius: 25px;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.textthree {
+  width: 200px;
+  margin-top: 5px: 
+  color: #1F2937;
+  text-align: center;
 }
